@@ -12,6 +12,13 @@ Languages that are currently supported:
 I am currently working on getting **PHP**, **Markdown** and **Python** looking good as well.
 For the time being, it'll be for front-end developers :)
 
+License
+-------
+
+You can do whatever the hell you want. Really.
+Use it, share it, modify it, smash it against the wall if you feel like it!
+Be nice though, I'd appreciate a mention as the original author if you're going to be sharing / building on it.
+
 # Installing Andro
 
 Espresso
