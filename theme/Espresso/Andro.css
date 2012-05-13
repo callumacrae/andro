@@ -1,7 +1,7 @@
 /*
 	@theme Andro
 	@author Cyril Mengin
-	@override-placeholders html, css, less, js, php, python
+	@override-placeholders html, css, less, js, php, python, markdown
 */
 :document-base {
   color: #d6d6d6;
@@ -54,3 +54,14 @@ js function > name, js identifier.function > name, js class > name, php function
   color: #6b84a3; }
 js.embedded, php.embedded, python.embedded {
   background: #242424; }
+
+markdown header {
+  color: #c24d43; }
+markdown code {
+  background: #212121; }
+markdown image, markdown keyword.reference, markdown link > punctuation, markdown image > punctuation {
+  color: #b9aa99; }
+markdown url, markdown email {
+  color: #6b84a3; }
+markdown markdown > punctuation.definition, markdown markdown *:not(html, comment) punctuation.definition, markdown markdown separator {
+  color: #676767; }

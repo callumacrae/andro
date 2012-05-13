@@ -12,7 +12,7 @@ $current: #303030;
 /*
 	@theme Andro
 	@author Cyril Mengin
-	@override-placeholders html, css, less, js, php, python
+	@override-placeholders html, css, less, js, php, python, markdown
 */
 
 :document-base {
@@ -90,5 +90,23 @@ js, php, python {
 	}
 	&.embedded {
 		background: darken($background, 2%);
+	}
+}
+
+markdown {
+	header {
+		color: $orange;
+	}
+	code {
+		background: darken($background, 3%);
+	}
+	image, keyword.reference, link > punctuation, image > punctuation {
+		color: $grey;
+	}
+	url, email {
+		color: $blue;
+	}
+	markdown > punctuation.definition, markdown *:not(html,comment) punctuation.definition, markdown separator {
+		color: $brown;
 	}
 }

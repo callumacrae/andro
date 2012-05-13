@@ -8,16 +8,16 @@ Languages that are currently supported:
 ## HTML 
 ![HTML](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleHTML.png)
 
-## CSS (and LESS / SASS if you have the Sugar installed) 
+## CSS, LESS, SASS
 ![CSS](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleCSS.png)
 
 ## JavaScript 
 ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
 
-## PHP (this one is a little finicky, I'll come back to it)
+## PHP
 ![PHP](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePHP.png)
 
-## Python (this one as well, but I don't use Python much -- please report back!)
+## Python
 ![Python](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePython.png)
 
 License
