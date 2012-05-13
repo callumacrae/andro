@@ -14,8 +14,8 @@ Languages that are currently supported:
 ## JavaScript 
 ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
 
-I am currently working on getting **PHP**, **Markdown** and **Python** looking good as well.
-For the time being, it'll be for front-end developers :)
+## PHP (this one is a little finicky, I'll come back to it)
+![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePHP.png)
 
 License
 -------

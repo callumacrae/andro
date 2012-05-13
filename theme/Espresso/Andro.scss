@@ -12,7 +12,7 @@ $current: #303030;
 /*
 	@theme Andro
 	@author Cyril Mengin
-	@override-placeholders html, css, less, js
+	@override-placeholders html, css, less, js, php
 */
 
 :document-base {
@@ -72,7 +72,7 @@ css, less {
 	}
 }
 
-js {
+js, php {
 	variable {
 		color: $grey;
 	}
@@ -85,7 +85,7 @@ js {
 	operator {
 		color: $white;
 	}
-	class.constructor > variable, function.definition name {
+	function > name, identifier.function > name, class > name {
 		color:  $blue;
 	}
 	&.embedded {
