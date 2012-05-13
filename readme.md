@@ -15,7 +15,10 @@ Languages that are currently supported:
 ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
 
 ## PHP (this one is a little finicky, I'll come back to it)
-![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePHP.png)
+![PHP](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePHP.png)
+
+## Python (this one as well, but I don't use Python much -- please report back!)
+![Python](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePython.png)
 
 License
 -------

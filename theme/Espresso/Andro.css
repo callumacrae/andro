@@ -1,7 +1,7 @@
 /*
 	@theme Andro
 	@author Cyril Mengin
-	@override-placeholders html, css, less, js, php
+	@override-placeholders html, css, less, js, php, python
 */
 :document-base {
   color: #d6d6d6;
@@ -42,15 +42,15 @@ css keyword.important, less keyword.important {
 css.embedded, less.embedded {
   background: #242424; }
 
-js variable, php variable {
+js variable, php variable, python variable {
   color: #b9aa99; }
-js constant, php constant {
+js constant, php constant, python constant {
   color: #c24d43; }
-js keyword, js function, php keyword, php function {
+js keyword, js function, php keyword, php function, python keyword, python function {
   color: #676767; }
-js operator, php operator {
+js operator, php operator, python operator {
   color: #d6d6d6; }
-js function > name, js identifier.function > name, js class > name, php function > name, php identifier.function > name, php class > name {
+js function > name, js identifier.function > name, js class > name, php function > name, php identifier.function > name, php class > name, python function > name, python identifier.function > name, python class > name {
   color: #6b84a3; }
-js.embedded, php.embedded {
+js.embedded, php.embedded, python.embedded {
   background: #242424; }

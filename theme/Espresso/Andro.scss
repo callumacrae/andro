@@ -12,7 +12,7 @@ $current: #303030;
 /*
 	@theme Andro
 	@author Cyril Mengin
-	@override-placeholders html, css, less, js, php
+	@override-placeholders html, css, less, js, php, python
 */
 
 :document-base {
@@ -72,7 +72,7 @@ css, less {
 	}
 }
 
-js, php {
+js, php, python {
 	variable {
 		color: $grey;
 	}
