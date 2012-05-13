@@ -1,0 +1,91 @@
+$blue: #6B84A3;
+$beige: #E8BF6A;
+$white: #D6D6D6;
+$brown: #676767;
+$orange: #C24D43;
+$grey: #B9AA99;
+
+$background: #292929;
+$highlight: #3C3C3C;
+$current: #303030;
+
+/*
+	@theme Andro
+	@author Cyril Mengin
+	@override-placeholders html, css, less, js
+*/
+
+:document-base {
+	color: $white;
+	spell-check: disabled;
+	background-color: $background;
+	insertion-point-color: $white;
+	selection-background-color: $highlight;
+	current-line-background-color: $current;
+}
+
+comment {
+	color: $brown;
+}
+
+string {
+	color: $beige;
+}
+
+html {
+	doctype, doctype name, doctype punctuation {
+		color: $brown;
+	}
+	tag {
+		color: $grey;
+		attribute-name {
+			color: darken($grey, 30%);
+		}
+		&.self-closing {
+			color: $blue;
+			attribute-name {
+				color: darken($blue, 20%);
+			}
+		}
+	}
+}
+
+css, less {
+	selector {
+		color: $white;
+	}
+	property-name {
+		color: $blue;
+	}
+	property-value {
+		color: $beige;
+		keyword, constant {
+			color: $orange;
+		}
+	}
+	keyword.important {
+		font-weight: bold;
+		color: $orange;
+	}
+	&.embedded {
+		background: darken($background, 2%);
+	}
+}
+
+js {
+	variable {
+		color: $grey;
+	}
+	constant {
+		color: $orange;
+	}
+	keyword, function {
+		color:  $brown;
+	}
+	operator {
+		color: $white;
+	}
+	&.embedded {
+		background: darken($background, 2%);
+	}
+}

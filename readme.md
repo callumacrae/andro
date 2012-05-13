@@ -1,0 +1,25 @@
+# Andro
+
+**Andro** is a theme for MacRabbit's Espresso, that I made and am using. Expect updates, as I fiddle with the details.
+I will also be porting Andro to several other editors in the near future, such as TextMate and Notepad++
+
+Languages that are currently supported:
+
++ HTML: ![HTML](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleHTML.png)
++ CSS (and LESS / SASS if you have the Sugar installed) ![CSS](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleCSS.png)
++ JavaScript ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
+
+I am currently working on getting **PHP**, **Markdown** and **Python** looking good as well.
+For the time being, it'll be for front-end developers :)
+
+# Installing Andro
+
+Espresso
+--------
+
+Copy the the ``themes/Espresso/Andro.css`` file to ``~/Library/Application Support/Espresso/Themes/Andro.css``.
+Open up Espresso,  go to ``Preferences ➜ Colors`` and set your "active theme" to Kolor.
+*I also suggest that you use **Monaco 11pt** as your font.*
+
+The .SCSS file that I used for generating the ``Andro.css`` file is also available in there, if you decide to edit it yourself.
+(If you do, make sure to let me know! I'll gladly accept improvements for it.)
