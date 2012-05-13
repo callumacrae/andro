@@ -5,9 +5,14 @@ I will also be porting Andro to several other editors in the near future, such a
 
 Languages that are currently supported:
 
-+ HTML: ![HTML](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleHTML.png)
-+ CSS (and LESS / SASS if you have the Sugar installed) ![CSS](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleCSS.png)
-+ JavaScript ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
+## HTML 
+![HTML](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleHTML.png)
+
+## CSS (and LESS / SASS if you have the Sugar installed) 
+![CSS](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleCSS.png)
+
+## JavaScript 
+![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
 
 I am currently working on getting **PHP**, **Markdown** and **Python** looking good as well.
 For the time being, it'll be for front-end developers :)
