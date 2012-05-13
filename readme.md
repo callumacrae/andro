@@ -19,7 +19,7 @@ Espresso
 
 Copy the the ``themes/Espresso/Andro.css`` file to ``~/Library/Application Support/Espresso/Themes/Andro.css``.
 Open up Espresso,  go to ``Preferences ➜ Colors`` and set your "active theme" to Kolor.
-*I also suggest that you use **Monaco 11pt** as your font.*
+I also suggest that you use **Monaco 11pt** as your font.
 
 The .SCSS file that I used for generating the ``Andro.css`` file is also available in there, if you decide to edit it yourself.
 (If you do, make sure to let me know! I'll gladly accept improvements for it.)

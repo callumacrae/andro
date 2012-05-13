@@ -85,6 +85,9 @@ js {
 	operator {
 		color: $white;
 	}
+	class.constructor > variable, function.definition name {
+		color:  $blue;
+	}
 	&.embedded {
 		background: darken($background, 2%);
 	}

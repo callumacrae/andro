@@ -50,5 +50,7 @@ js keyword, js function {
   color: #676767; }
 js operator {
   color: #d6d6d6; }
+js class.constructor > variable, js function.definition name {
+  color: #6b84a3; }
 js.embedded {
   background: #242424; }
