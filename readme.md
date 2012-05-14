@@ -30,7 +30,7 @@ Python
 If you're going to port Andro to another editor, please let me know, and I'll add it. 
 Note that getting the same effect is pretty hard, as not many editors enable you to have as much flexibility as Espresso.
 
-Here are the colors (credit goes to @neilhanlon for converting the HEX to RGB):
+Here are the colors (credit goes to [@NeilHanlon](https://github.com/neilhanlon) for converting the HEX to RGB):
 
 	$background: #292929;     :  rgb(41,41,41)
 	$highlight: #3C3C3C;      :  rgb(60,60,60)
