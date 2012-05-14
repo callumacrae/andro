@@ -54,7 +54,14 @@ TextMate
 
 Open up the ``themes/+TextMate/Andro.tmTheme`` file in TextMate (nothing should happen, but the app should open). 
 Then select "Andro" as your theme in ``TextMate ➜ Preferences ➜ Fonts and Colors``.
-**Note that this is not a full port. Some of the styling visible on the Espresso screenshots was not possible to replicate with TextMate.
+**Note that this is not a full port. Some of the styling visible on the Espresso screenshots was not possible to replicate with TextMate.**
+
+Sublime Text 2
+--------------
+
+Copy the ``themes/+Sublime Text 2/Andro.tmTheme`` file to ``~/Library/Application Support/Sublime Text 2/Packages/User/Andro.tmTheme``.
+Then open Sublime Text, and select ``Sublime Texte 2 ➜ Preferences ➜ Color Scheme ➜ User ➜ Andro``. Andro should now be your theme.
+**Note that this is not a full port. Some of the styling visible on the Espresso screenshots was not possible to replicate with TextMate.**
 
 
 
