@@ -5,30 +5,45 @@ I will also be porting Andro to several other editors in the near future, such a
 
 Languages that are currently supported:
 
-## HTML 
+HTML
+----
 ![HTML](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleHTML.png)
 
-## CSS, LESS, SASS
+CSS, LESS, SASS
+---------------
 ![CSS](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleCSS.png)
 
-## JavaScript 
+JavaScript 
+----------
 ![JavaScript](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExampleJS.png)
 
-## PHP
+PHP
+---
 ![PHP](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePHP.png)
 
-## Python
+Python
+------
 ![Python](https://github.com/cyrilmengin/andro/raw/master/examples/AndroExamplePython.png)
 
-Porting to other Editors
-------------------------
+# Porting to other Editors
 
 If you're going to port Andro to another editor, please let me know, and I'll add it. 
 Note that getting the same effect is pretty hard, as not many editors enable you to have as much flexibility as Espresso.
-Editor themes in the ``theme`` directory with a ``+`` in front of their names mean that they aren't a full port, that some things were lost.
 
-License
--------
+Here are the colors (credit goes to @neilhanlon for converting the HEX to RGB):
+
+	$background: #292929;     :  rgb(41,41,41)
+	$highlight: #3C3C3C;      :  rgb(60,60,60)
+	$current: #303030;        :  rgb(48,48,48)
+	
+	$blue: #6B84A3;           :  rgb(107,132,163)
+	$beige: #E8BF6A;          :  rgb(232,191,122)
+	$white: #D6D6D6;          :  rgb(214,214,214)
+	$brown: #676767;          :  rgb(103,103,103)
+	$orange: #C24D43;         :  rgb(194,77,67)
+	$grey: #B9AA99;           :  rgb(185,170,153)
+
+# License
 
 You can do whatever the hell you want. Really.
 Use it, share it, modify it, smash it against the wall if you feel like it!
@@ -36,7 +51,8 @@ Be nice though, I'd appreciate a mention as the original author if you're going 
 
 # Installing Andro
 
-All the files for the various IDEs are in the ``theme`` folder. Folders with a ``+`` in front of them means it isn't a full port and that some styling may not have been replicated, from the original Espresso version. 
+All the files for the various IDEs are in the ``theme`` folder. 
+Editor themes in the ``theme`` directory with a ``+`` in front of their names mean that they aren't a full port, that some things were lost.
 
 Also, I suggest you use **Monaco** as your font, at **11pt** or **12pt**, depending on what looks best in your editor.
 
@@ -47,13 +63,13 @@ Copy the the ``themes/Espresso/Andro.css`` file to ``~/Library/Application Suppo
 Open up Espresso,  go to ``Espresso ➜ Preferences ➜ Colors`` and set your "active theme" to Andro.
 
 The .SCSS file that I used for generating the ``Andro.css`` file is also available in there, if you decide to edit it yourself.
-(If you do, make sure to let me know! I'll gladly accept improvements for it.)
 
 TextMate
 --------
 
 Open up the ``themes/+TextMate/Andro.tmTheme`` file in TextMate (nothing should happen, but the app should open). 
 Then select "Andro" as your theme in ``TextMate ➜ Preferences ➜ Fonts and Colors``.
+
 **Note that this is not a full port. Some of the styling visible on the Espresso screenshots was not possible to replicate with TextMate.**
 
 Sublime Text 2
@@ -61,6 +77,7 @@ Sublime Text 2
 
 Copy the ``themes/+Sublime Text 2/Andro.tmTheme`` file to ``~/Library/Application Support/Sublime Text 2/Packages/User/Andro.tmTheme``.
 Then open Sublime Text, and select ``Sublime Texte 2 ➜ Preferences ➜ Color Scheme ➜ User ➜ Andro``. Andro should now be your theme.
+
 **Note that this is not a full port. Some of the styling visible on the Espresso screenshots was not possible to replicate with TextMate.**
 
 
